@@ -11,5 +11,17 @@ javaweb扶贫网站的设计与实现（毕业设计作品）
 
 5、说明：该系统分为游客、用户、贫困户、管理员这4个角色，各角色权限不同，拥有的功能也不同，其中用户可通过提交贫困申请，经管理员同意后，提升权限成为贫困户以享受贫困户独有权限（购买捐赠物）。系统中引入贫困代币这一属性，为捐赠物设置贫困代币数量，这样可以防止一些贫困户无限制的乱拿捐赠物。
 
-网盘链接：https://pan.baidu.com/s/1WbxD88qvlsPtKpOfL7kT5w 
+注意：本网站系统中大部分的图片存储使用了阿里云的对象存储OSS服务。若要实现图片正常的上传、显示，请自行开通该OSS服务，并修改代码中关于阿里云OSS账号设置的相关选项。如下面设置，这些属性需要从阿里云网站上获得，具体怎么做请参考阿里云官网或者百度，该服务新用户免费使用3个月，后续将收费，注意时间节点。各位也可将图片的上传显示功能改为本地服务，这样就可以避免收费。
+
+#阿里云 OSS
+#不同的服务器，地址不同
+aliyun.oss.file.endpoint=oss-cn-beijing.aliyuncs.com
+aliyun.oss.file.keyid=LTAI5t7KPS2SN4y3hU2jcwZo
+aliyun.oss.file.keysecret=lLFSyfEPxkrywnat0r2EdyAZYmj7kk
+#bucket可以在控制台创建，也可以使用java代码创建
+aliyun.oss.file.bucketname=yinwj
+aliyun.oss.file.filehost=https://
+
+完整项目网盘链接：https://pan.baidu.com/s/1WbxD88qvlsPtKpOfL7kT5w 
 提取码：1874
+![95F852D5BFD451D98630B09E7ECD5830](https://user-images.githubusercontent.com/100548749/176105763-443eae7a-2c0c-4a64-addd-93488859e249.png)
