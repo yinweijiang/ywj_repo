@@ -29,6 +29,7 @@ aliyun.oss.file.bucketname=yinwj
 
 aliyun.oss.file.filehost=https:// 
 
+
 若代码拉下来后发现有缺，可通过以下链接获取完整项目，配置好环境后，可开箱即用。 
 
 完整项目网盘链接：https://pan.baidu.com/s/1WbxD88qvlsPtKpOfL7kT5w  
