@@ -22,6 +22,6 @@ aliyun.oss.file.keysecret=lLFSyfEPxkrywnat0r2EdyAZYmj7kk
 aliyun.oss.file.bucketname=yinwj
 aliyun.oss.file.filehost=https://
 
+若代码拉下来后发现有缺，可通过以下链接获取完整项目，配置好环境后，可开箱即用。
 完整项目网盘链接：https://pan.baidu.com/s/1WbxD88qvlsPtKpOfL7kT5w 
 提取码：1874
-![95F852D5BFD451D98630B09E7ECD5830](https://user-images.githubusercontent.com/100548749/176105763-443eae7a-2c0c-4a64-addd-93488859e249.png)
